@@ -1,6 +1,7 @@
 #Rivalry
 
 Rivalry is similar to Amazon's "Customers who viewed this item also viewed..." except:
+
 1. Rivalry's results encapsulate the entire industry of products -- not just a product's immediate rivals.
 2. Rivalry creates a popularity ranking of products.
 3. Rivalry is applicable to anything -- abstract ideas, people, brand, products, companies, countries, organizations, food, lifestyles, religion, ... the list goes on.
