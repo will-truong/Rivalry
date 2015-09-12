@@ -24,135 +24,153 @@ Things I would like to do:
 ##Interesting Rivalry rankings
 
 ###Cola Wars
-> Enter the name of a product, brand, item, or otherwise distinct entity: pepsi
-> 1. coke
-> 2. pepsi
-> 3. diet coke
-> 4. coke zero
-> 5. diet pepsi
-> 6. pepsi max
-> 7. coffee caffeine
-> 8. coffee
-> 9. soda
-> 10. coca cola
+````
+Enter the name of a product, brand, item, or otherwise distinct entity: pepsi
+1. coke
+2. pepsi
+3. diet coke
+4. coke zero
+5. diet pepsi
+6. pepsi max
+7. coffee caffeine
+8. coffee
+9. soda
+10. coca cola
+````
 
-###Text editors
-> Enter the name of a product, brand, item, or otherwise distinct entity: emacs
-> 1. sublime
-> 2. vim
-> 3. atom
-> 4. eclipse
-> 5. ide
-> 6. nano
-> 7. riven
-> 8. emacs
-> 9. nasus
-> 10. intellij
+###Editor Wars
+````
+Enter the name of a product, brand, item, or otherwise distinct entity: emacs
+1. sublime
+2. vim
+3. atom
+4. eclipse
+5. ide
+6. nano
+7. riven
+8. emacs
+9. nasus
+10. intellij
+````
 
 ###Luxury cars
-> Enter the name of a product, brand, item, or otherwise distinct entity: audi
-> 1. bmw
-> 2. honda
-> 3. audi
-> 4. lexus
-> 5. toyota
-> 6. subaru
-> 7. mercedes
-> 8. porsche
-> 9. acura
-> 10. infiniti
+````
+Enter the name of a product, brand, item, or otherwise distinct entity: audi
+1. bmw
+2. honda
+3. audi
+4. lexus
+5. toyota
+6. subaru
+7. mercedes
+8. porsche
+9. acura
+10. infiniti
+````
 
-###Burgers
-> 1. five guys
-> 2. mcdonalds
-> 3. in n out
-> 4. batman
-> 5. burger king
-> 6. shake shack
-> 7. wendy's
-> 8. whataburger
-> 9. sonic
-> 10. subway
+###Console Wars
+````
+Enter the name of a product, brand, item, or otherwise distinct entity: xbox one
+1. ps4
+2. pc
+3. wii u
+4. xbox 360
+5. xbox one
+6. ps3
+7. 360
+8. ps4 graphics
+9. 3ds xl
+10. xbox 360 sales
+````
 
-##Console Wars
-> Enter the name of a product, brand, item, or otherwise distinct entity: xbox one
-> 1. ps4
-> 2. pc
-> 3. wii u
-> 4. xbox 360
-> 5. xbox one
-> 6. ps3
-> 7. 360
-> 8. ps4 graphics
-> 9. 3ds xl
-> 10. xbox 360 sales
+###Distro Wars
+````
+Enter the name of a product, brand, item, or otherwise distinct entity: ubuntu
+1. ubuntu
+2. mint
+3. windows
+4. linux
+5. windows 10
+6. debian
+7. centos
+8. fedora
+9. windows 8
+10. windows 7
+````
 
-##Distro wars
-> Enter the name of a product, brand, item, or otherwise distinct entity: ubuntu
-> 1. ubuntu
-> 2. mint
-> 3. windows
-> 4. linux
-> 5. windows 10
-> 6. debian
-> 7. centos
-> 8. fedora
-> 9. windows 8
-> 10. windows 7
+###Phone Wars
+````
+Enter the name of a product, brand, item, or otherwise distinct entity: iphone 6
+1. note 4
+2. iphone 6
+3. s6
+4. lg g4
+5. s5
+6. iphone 6 plus
+7. note 5
+8. galaxy s5
+9. s6 edge
+10. note 3
+````
 
+###TV/Internet Providers
+````
+Enter the name of a product, brand, item, or otherwise distinct entity: comcast
+1. comcast
+2. netflix
+3. directv
+4. at&t
+5. dish
+6. uverse
+7. time warner
+8. cable
+9. charter
+10. frontier
+````
 
-##Phone wars
-> Enter the name of a product, brand, item, or otherwise distinct entity: iphone 6
-> 1. note 4
-> 2. iphone 6
-> 3. s6
-> 4. lg g4
-> 5. s5
-> 6. iphone 6 plus
-> 7. note 5
-> 8. galaxy s5
-> 9. s6 edge
-> 10. note 3
+###Language Wars
+````
+Enter the name of a product, brand, item, or otherwise distinct entity: python
+1. python
+2. java
+3. php
+4. javascript
+5. r
+6. ruby
+7. node.js
+8. lion
+9. perl
+10. sas
+````
 
-##ISP's
-> Enter the name of a product, brand, item, or otherwise distinct entity: comcast
-> 1. comcast
-> 2. netflix
-> 3. directv
-> 4. at&t
-> 5. dish
-> 6. uverse
-> 7. time warner
-> 8. cable
-> 9. charter
-> 10. frontier
+###Junk food
+````
+Enter the name of a product, brand, item, or otherwise distinct entity: pizza
+1. pizza
+2. rice
+3. burrito
+4. french fries
+5. pasta
+6. bread
+7. taco
+8. burger
+9. fries
+10. fried chicken
+````
 
-
-##Programming languages
-> Enter the name of a product, brand, item, or otherwise distinct entity: python
-> 1. python
-> 2. java
-> 3. php
-> 4. javascript
-> 5. r
-> 6. ruby
-> 7. node.js
-> 8. lion
-> 9. perl
-> 10. sas
-
-
-##Junk Food wars
-> Enter the name of a product, brand, item, or otherwise distinct entity: pizza
-> 1. pizza
-> 2. rice
-> 3. burrito
-> 4. french fries
-> 5. pasta
-> 6. bread
-> 7. taco
-> 8. burger
-> 9. fries
-> 10. fried chicken
+###Burger Wars
+````
+Enter the name of a product, brand, item, or otherwise distinct entity: five guys
+1. five guys
+2. mcdonalds
+3. in n out
+4. batman
+5. burger king
+6. shake shack
+7. wendy's
+8. whataburger
+9. sonic
+10. subway
+````
 
 Author: William Truong
