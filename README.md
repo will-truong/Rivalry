@@ -2,8 +2,8 @@
 
 Rivalry is similar to Amazon's "Customers who viewed this item also viewed..." except:
 1. Rivalry's results encapsulate the entire industry of products -- not just a product's immediate rivals.
-2. Rivalry gives a ranking of products by popularity.
-3. Rivalry is applicable to any type entity -- people, brands, products, companies, countries, organizations, food, ... the list goes on.
+2. Rivalry creates a popularity ranking of products.
+3. Rivalry is applicable to anything -- abstract ideas, people, brand, products, companies, countries, organizations, food, lifestyles, religion, ... the list goes on.
 
 ##Key ideas
 * The key idea is to rank a product's competitors based on search frequency.
