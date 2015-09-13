@@ -1,5 +1,4 @@
 #Rivalry
----
 
 Rivalry is similar to Amazon's "Customers who viewed this item also viewed..." except:
 
