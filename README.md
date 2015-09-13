@@ -1,17 +1,26 @@
 #Rivalry
+---
 
 Rivalry is similar to Amazon's "Customers who viewed this item also viewed..." except:
 
-1. Rivalry's results encapsulate the entire industry of products -- not just a product's immediate rivals.
-2. Rivalry creates a popularity ranking of products.
-3. Rivalry is applicable to anything -- abstract ideas, people, brand, products, companies, countries, organizations, food, lifestyles, religion, ... the list goes on.
+1. Rivalry is applicable to anything -- abstract ideas, people, brand, products, companies, countries, organizations, food, lifestyles, religion, ... the list goes on.
+2. Rivalry's results encapsulate a product's entire industry -- not just a product's immediate rivals.
+3. Rivalry creates a popularity ranking of products.
 
-##Key ideas
+### Installation
+
+```
+git clone https://github.com/william-truong/Rivalry.git
+pip install -r Rivalry/requirements.txt
+python Rivalry/Rivalry.py
+```
+
+###Key ideas
 * The key idea is to rank a product's competitors based on search frequency.
 * "The rival of my rival is my rival."
-* There are 'golden standards' that people will often compare things to -- Rivalry captures that and produced a ranking.
+* There are 'golden standards' that people will often compare things to -- Rivalry captures that and produces a ranking.
 
-##Characteristics of search results
+###Characteristics of search results
 * The industry of your search results will be centered around the target market of your product
 	- For example -- if you type in 'Audi', your search results will be biased towards luxury vehicles (people tend to cross-shop Audis with BMWs moreso than Hondas), whereas if you type in 'Toyota', the resulting search results will be biased towards standard vehicles.
 * Keeping in mind the above, the ranking produced is very robust with respect to the input
@@ -22,9 +31,9 @@ Things I would like to do:
 - [ ] Create a webpage allowing users to interact with a Rivalry agent
 - [ ] Create a graph that visually describes the web of rivalries within an industry
 
-##Interesting Rivalry rankings
+###Interesting Rivalry rankings
 
-###Cola Wars
+####Cola Wars
 ````
 Enter the name of a product, brand, item, or otherwise distinct entity: pepsi
 1. coke
@@ -39,7 +48,7 @@ Enter the name of a product, brand, item, or otherwise distinct entity: pepsi
 10. coca cola
 ````
 
-###Editor Wars
+####Editor Wars
 ````
 Enter the name of a product, brand, item, or otherwise distinct entity: emacs
 1. sublime
@@ -54,7 +63,7 @@ Enter the name of a product, brand, item, or otherwise distinct entity: emacs
 10. intellij
 ````
 
-###Luxury cars
+####Luxury cars
 ````
 Enter the name of a product, brand, item, or otherwise distinct entity: audi
 1. bmw
@@ -69,7 +78,7 @@ Enter the name of a product, brand, item, or otherwise distinct entity: audi
 10. infiniti
 ````
 
-###Console Wars
+####Console Wars
 ````
 Enter the name of a product, brand, item, or otherwise distinct entity: xbox one
 1. ps4
@@ -84,7 +93,7 @@ Enter the name of a product, brand, item, or otherwise distinct entity: xbox one
 10. xbox 360 sales
 ````
 
-###Distro Wars
+####Distro Wars
 ````
 Enter the name of a product, brand, item, or otherwise distinct entity: ubuntu
 1. ubuntu
@@ -99,7 +108,7 @@ Enter the name of a product, brand, item, or otherwise distinct entity: ubuntu
 10. windows 7
 ````
 
-###Phone Wars
+####Phone Wars
 ````
 Enter the name of a product, brand, item, or otherwise distinct entity: iphone 6
 1. note 4
@@ -114,7 +123,7 @@ Enter the name of a product, brand, item, or otherwise distinct entity: iphone 6
 10. note 3
 ````
 
-###TV/Internet Providers
+####TV/Internet Providers
 ````
 Enter the name of a product, brand, item, or otherwise distinct entity: comcast
 1. comcast
@@ -129,7 +138,7 @@ Enter the name of a product, brand, item, or otherwise distinct entity: comcast
 10. frontier
 ````
 
-###Language Wars
+####Language Wars
 ````
 Enter the name of a product, brand, item, or otherwise distinct entity: python
 1. python
@@ -144,7 +153,7 @@ Enter the name of a product, brand, item, or otherwise distinct entity: python
 10. sas
 ````
 
-###Junk food
+####Junk food
 ````
 Enter the name of a product, brand, item, or otherwise distinct entity: pizza
 1. pizza
@@ -159,7 +168,7 @@ Enter the name of a product, brand, item, or otherwise distinct entity: pizza
 10. fried chicken
 ````
 
-###Burger Wars
+####Burger Wars
 ````
 Enter the name of a product, brand, item, or otherwise distinct entity: five guys
 1. five guys

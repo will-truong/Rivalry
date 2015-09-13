@@ -23,7 +23,9 @@ def rank_rivals(product):
     return ranking
 
 
-def aggregate_rivalries(product):  # Several ways to do this, need to try them
+# TODO: alternative algorithm that uses top rival's top rival to find top dog
+# TODO: improve documentation
+def aggregate_rivalries(product):
     rivals = set(query_google_ac(product))
     for rival in rivals.copy():
         if rival:
