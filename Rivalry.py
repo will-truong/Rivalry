@@ -3,6 +3,10 @@ from collections import OrderedDict
 
 
 def query_google_ac(product):
+    """
+    Determines a product's immediate rivals using
+    Google Search Autocomplete API with "vs" syntax.
+    """
     if product:
         base_query = "http://suggestqueries.google.com/" \
                      "complete/search?client=firefox&q={} vs "
@@ -15,6 +19,9 @@ def query_google_ac(product):
 
 
 def rank_rivals(product):
+    """
+    Ranks a product's immediate rivals by search frequency.
+    """
     ranking = {}
     if product:
         top_hits = query_google_ac(product)
@@ -23,9 +30,11 @@ def rank_rivals(product):
     return ranking
 
 
-# TODO: alternative algorithm that uses top rival's top rival to find top dog
-# TODO: improve documentation
 def aggregate_rivalries(product):
+    """
+    Aggregates rivalries within a product's industry to
+    generate an industry-wide ranking.
+    """
     rivals = set(query_google_ac(product))
     for rival in rivals.copy():
         if rival:
@@ -52,5 +61,7 @@ while(True):
         print('{}. {}'.format(a, b))
 
 
-# Author: William Truong
-# Student at The University of Texas at Austin
+"""
+Author: William Truong
+Student at The University of Texas at Austin
+"""

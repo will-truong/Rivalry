@@ -6,29 +6,7 @@ Rivalry is similar to Amazon's "Customers who viewed this item also viewed..." e
 2. Rivalry's results encapsulate a product's entire industry -- not just a product's immediate rivals.
 3. Rivalry creates a popularity ranking of products.
 
-### Installation
-
-```
-git clone https://github.com/william-truong/Rivalry.git
-pip install -r Rivalry/requirements.txt
-python Rivalry/Rivalry.py
-```
-
-###Key ideas
-* The key idea is to rank a product's competitors based on search frequency.
-* "The rival of my rival is my rival."
-* There are 'golden standards' that people will often compare things to -- Rivalry captures that and produces a ranking.
-
-###Characteristics of search results
-* The industry of your search results will be centered around the target market of your product
-	- For example -- if you type in 'Audi', your search results will be biased towards luxury vehicles (people tend to cross-shop Audis with BMWs moreso than Hondas), whereas if you type in 'Toyota', the resulting search results will be biased towards standard vehicles.
-* Keeping in mind the above, the ranking produced is very robust with respect to the input
-  	- For example -- whether you type in 'Coke', 'Pepsi', or 'Sprite', you will see Coke as #1 and Pepsi as #2.
-
-
-Things I would like to do:
-- [ ] Create a webpage allowing users to interact with a Rivalry agent
-- [ ] Create a graph that visually describes the web of rivalries within an industry
+---
 
 ###Interesting Rivalry rankings
 
@@ -181,5 +159,31 @@ Enter the name of a product, brand, item, or otherwise distinct entity: five guy
 9. sonic
 10. subway
 ````
+
+---
+
+### Installation
+
+```
+git clone https://github.com/william-truong/Rivalry.git
+pip install -r Rivalry/requirements.txt
+python Rivalry/Rivalry.py
+```
+
+###Key ideas
+* The key idea is to rank a product's competitors based on search frequency.
+* "The rival of my rival is my rival."
+* There are 'golden standards' that people will often compare things to -- Rivalry captures that and produces a ranking.
+
+###Characteristics of search results
+* The industry of your search results will be centered around the target market of your product
+    - For example -- if you type in 'Audi', your search results will be biased towards luxury vehicles (people tend to cross-shop Audis with BMWs moreso than Hondas), whereas if you type in 'Toyota', the resulting search results will be biased towards standard vehicles.
+* Keeping in mind the above, the ranking produced is very robust with respect to the input
+    - For example -- whether you type in 'Coke', 'Pepsi', or 'Sprite', you will see Coke as #1 and Pepsi as #2.
+
+
+Things I would like to do:
+- [ ] Create a webpage allowing users to interact with a Rivalry agent
+- [ ] Create a graph that visually describes the web of rivalries within an industry
 
 Author: William Truong
