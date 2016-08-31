@@ -1,5 +1,9 @@
 import requests
 from collections import OrderedDict
+from flask import Flask, jsonify
+
+
+app = Flask(__name__)
 
 
 def query_google_ac(product):
@@ -54,14 +58,26 @@ def aggregate_rivalries(product):
         sorted(ranking.items(), key=lambda t: t[1], reverse=True))
     return list(ordered_ranking)[0:10]
 
-while(True):
-    product = str(input("Enter the name of a product, brand, item, "
-                        "or otherwise distinct entity: "))
-    for a, b in enumerate(aggregate_rivalries(product), 1):
-        print('{}. {}'.format(a, b))
+
+@app.route('/rivalry/<product>')
+def get_rivals(product):
+    return jsonify(aggregate_rivalries(product))
+
+
+@app.after_request
+def after_request(response):
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
+    return response
+
+
+if __name__ == "__main__":
+    app.run()
 
 
 """
-Author: William Truong
+2016
+Author: Will Truong
 Student at The University of Texas at Austin
 """
