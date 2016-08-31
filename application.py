@@ -69,7 +69,7 @@ def get_rivals(product):
     return jsonify(aggregate_rivalries(product))
 
 
-@app.after_request
+@application.after_request
 def after_request(response):
     response.headers.add('Access-Control-Allow-Origin', '*')
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
