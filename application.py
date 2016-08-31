@@ -3,7 +3,7 @@ from collections import OrderedDict
 from flask import Flask, jsonify
 
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 
 def query_google_ac(product):
@@ -59,12 +59,18 @@ def aggregate_rivalries(product):
     return list(ordered_ranking)[0:10]
 
 
-@app.route('/rivalry/<product>')
+# application.add_url_rule('/rivalry/<product>', 'rivals', (lambda product: jsonify(aggregate_rivalries(product))))
+
+
+application.add_url_rule('/', 'index', (lambda: "Welcome to Rivalry."))
+
+
+@application.route('/rivalry/<product>')
 def get_rivals(product):
     return jsonify(aggregate_rivalries(product))
 
 
-@app.after_request
+@application.after_request
 def after_request(response):
     response.headers.add('Access-Control-Allow-Origin', '*')
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
@@ -73,11 +79,12 @@ def after_request(response):
 
 
 if __name__ == "__main__":
-    app.run()
+    application.debug = True
+    application.run()
 
 
 """
-2016
+Copyright 2015-2016
 Author: Will Truong
 Student at The University of Texas at Austin
 """
