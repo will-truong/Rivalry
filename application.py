@@ -64,7 +64,7 @@ def welcome():
     return 'Welcome to Rivalry.'
 
 
-@application.route('/rivalry/<product>')
+@application.route('/<product>')
 def get_rivals(product):
     return jsonify(aggregate_rivalries(product))
 
