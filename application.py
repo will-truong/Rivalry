@@ -59,27 +59,17 @@ def aggregate_rivalries(product):
     return list(ordered_ranking)[0:10]
 
 
-# application.add_url_rule('/rivalry/<product>', 'rivals', (lambda product: jsonify(aggregate_rivalries(product))))
-
-
-application.add_url_rule('/', 'index', (lambda: "Welcome to Rivalry."))
+@application.route('/')
+def welcome():
+    return 'Welcome to Rivalry.'
 
 
 @application.route('/rivalry/<product>')
 def get_rivals(product):
     return jsonify(aggregate_rivalries(product))
 
-'''
-@application.after_request
-def after_request(response):
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
-    return response
-'''
 
 if __name__ == "__main__":
-    application.debug = True
     application.run()
 
 
